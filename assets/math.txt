@@ -1,0 +1,56 @@
+/*
+    Matrix Transposition (mn -> nm)
+    Input:
+        - One Matrix (A) of dimensions:
+            - rows:             quantity m
+            - columns:          quantity n
+        - Requirements:
+            - M and N must be larger than 0
+                 _               _ 
+                |  A11  ...  A1n  |
+            A = |  ...  ...  ...  |
+                |_ Am1  ...  Amn _|
+
+    Output:
+        - One Matrix (B) of dimensions:
+            - rows:             quantity n
+            - columns:          quantity m
+                 _                           _ 
+                |  B11 = A11  ...  B1m = Am1  |
+            B = |     ...     ...     ...     |
+                |_ Bn1 = A1n  ...  Bnm = Amn _|
+
+    Matrix Multiplication (mn * np)
+  
+    Inputs:
+        - Two Matrices:
+            - Matrix 1 (A) of dimensions: m*n 
+            - Matrix 2 (B) of dimensions: n*p
+
+        - Requirements:
+            - A's number of columns == B's number of rows
+            - All inputted values must be of double type (allows for fractional numbers)
+                 _               _ 
+                |  A11  ...  A1n  |
+            A = |  ...  ...  ...  |
+                |_ Am1  ...  Amn _|
+
+                    - rows:             quantity m
+                    - columns:          quantity n
+                 _               _ 
+                |  B11  ...  B1p  |
+            B = |  ...  ...  ...  |
+                |_ Bn1  ...  Bnp _|
+
+                    - rows:             quantity n
+                    - column:           quantity p
+    Output:
+        - One Matrix (C) of dimensions:
+            - A's number of columns:    quantity n
+            - B's number of rows:       quantity n
+                 _                                                            _               _                   _
+                |  A11*B11 + ... + A1n*Bn1    ...     A11*B1p + ... + A1n*Bnp  |             |  C11   ...     C1n  |
+            C = |            ...              ...               ...            |      =      |  ...   ...     ...  |
+                |_ Am1*B11 + ... + Amn*Bn1    ...     Am1*B1p + ... + Amn*Bnp _|             |_ Cn1   ...     Cnn _|
+   
+*/
