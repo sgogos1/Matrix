@@ -46,7 +46,7 @@
     </li>
     <li>Build the test file by running the following command via g++: <strong>g++ test.cpp -o matrix-test -std=c++11</strong> in the command prompt (from the root of the directory)</li>
     <ul><li>To install g++ please reference <a href="https://www.instructables.com/How-to-Install-MinGW-GCCG-Compiler-in-Windows-XP78/">Windows</a> and <a href="https://linuxconfig.org/how-to-install-g-the-c-compiler-on-ubuntu-18-04-bionic-beaver-linux">Linux</a>.</li></ul>
-    <li>To run the tests for instantiation, multiplication, and transposition of via the Matrix library, run the command: <strong>./matrix-test</strong></li>
+    <li>To run the tests for instantiation, multiplication, and transposition of via the Matrix library, run the command: <strong>./matrix-test</strong> (on Powershell or Bash) or <strong>matrix-test.exe</strong> (on Command Prompt)</li>
 </ol>
 
 <h2>Point of Contact</h2>
